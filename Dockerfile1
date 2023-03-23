@@ -4,5 +4,5 @@ WORKDIR /usr/src/app/
 RUN apk update && apk add --no-cache bash ffmpeg wget unzip python3 py3-pip
 RUN pip3 install gdown
 RUN gdown https://drive.google.com/uc?id=1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh
-#RUN ls -a && unzip 1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh.zip
+RUN ls -a && unzip ben10AFS01.zip
 RUN ls -a
