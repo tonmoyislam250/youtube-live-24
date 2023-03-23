@@ -5,6 +5,6 @@ RUN apk update && apk add --no-cache bash ffmpeg wget unzip python3 py3-pip
 RUN pip3 install gdown
 RUN gdown https://drive.google.com/uc?id=1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh
 RUN ls -a && unzip ben10AFS01.zip
-RUN ls -a
+RUN ls -a && rm -rf ben10AFS01.zip
 RUN mv "Ben 10 Alien Force 2008 Season 1 Complete Web 720p x264 [i_c]" Ben10S01
 RUN ls -a Ben10S01
