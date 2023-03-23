@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -a
+ls -a && pwd
+ls -a /usr/src/app
