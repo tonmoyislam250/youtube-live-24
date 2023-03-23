@@ -2,6 +2,6 @@ FROM alpine:3.16
 RUN mkdir /usr/src/app -p
 WORKDIR /usr/src/app/
 RUN apk update && apk add --no-cache bash ffmpeg wget unzip 
-RUN wget https://drive.google.com/uc?export=download&id=1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh
+RUN wget https://drive.google.com/u/1/uc?id=1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh&export=download
 RUN ls -a && unzip Ben 10 Alien Force 2008 Season 1 Complete Web 720p x264 [i_c].zip
 RUN ls -a
