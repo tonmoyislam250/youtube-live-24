@@ -1,7 +1,8 @@
 FROM alpine:3.16
 RUN mkdir /usr/src/app -p
 WORKDIR /usr/src/app/
-RUN apk update && apk add --no-cache bash ffmpeg wget unzip 
-RUN wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh' -r -A 'uc*' -e robots=off -nd
+RUN apk update && apk add --no-cache bash ffmpeg wget unzip python3 py3-pip
+RUN pip3 install gdown
+RUN gdown https://drive.google.com/uc?id=1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh
 #RUN ls -a && unzip 1szSZvOG9vXj93C0WmCszEHP6-C3jG4sh.zip
 RUN ls -a
