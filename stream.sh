@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 while true; do
   ffmpeg -loglevel info -y -re \
