@@ -4,7 +4,7 @@ Have you ever come across a YouTube video that endlessly loops a playlist of mus
 
 # Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/tonmoyislam12/youtube-live-24)
 
 # Setup
 
