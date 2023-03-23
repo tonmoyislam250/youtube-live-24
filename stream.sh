@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VIDEO_DIR=./"Ben 10 Alien Force 2008 Season 1 Complete Web 720p x264 [i_c]"/
+VIDEO_DIR="./'Ben 10 Alien Force 2008 Season 1 Complete Web 720p x264 [i_c]'/"
 
 while true; do
   VIDEO_FILE=$(ls $VIDEO_DIR | shuf -n 1)
