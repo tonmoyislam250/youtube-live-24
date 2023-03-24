@@ -1,2 +1,0 @@
-gdown
-yt-dlp
