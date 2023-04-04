@@ -4,8 +4,12 @@
   "repository": "https://github.com/tonmoyislam12/youtube-live-24",
   "stack": "container",
   "env": {
-    "YOUTUBE_KEY": {
-      "description": "The YouTube live stream key to be used. Can be found in the YouTube UI",
+    "STREAM_KEY": {
+      "description": "KEY FOR STREAMING",
+      "required": true
+    },
+    "STREAM_URL": {
+      "description": "STREAM URL without leading '/'",
       "required": true
     }
   },
