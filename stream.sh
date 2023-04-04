@@ -1,8 +1,8 @@
 #!/bin/bash
 pwd
 cd /usr/src/app
-rm -rf *
-gdown $LINK
+rm -rf * && mkdir temp
+gdown $LINK -O temp --folder
 #mkdir -pv ncs && unzip -d ./ncs/ -j *.zip
 rm -rf *.zip
 
