@@ -1,9 +1,10 @@
 #!/bin/bash
 pwd
 cd /usr/src/app
-gdown https://drive.google.com/uc?id=1crRYTqqJkYrudw18dQtxtugnQ10wTRBz
-mkdir -pv ncs && unzip -d ./ncs/ -j ncs2.zip
-rm -rf ncs.zip
+rm -rf *
+gdown $LINK
+mkdir -pv ncs && unzip -d ./ncs/ -j *.zip
+rm -rf *.zip
 ls -a ncs
 
 while true; do
