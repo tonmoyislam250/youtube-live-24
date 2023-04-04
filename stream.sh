@@ -1,9 +1,9 @@
 #!/bin/bash
 pwd
 cd /usr/src/app
-rm -rf * && mkdir temp
-gdown $LINK -O temp --folder
-#mkdir -pv ncs && unzip -d ./ncs/ -j *.zip
+rm -rf
+gdown $LINK
+mkdir -pv temp && unzip -d ./temp/ -j *.zip
 rm -rf *.zip
 
 while true; do
