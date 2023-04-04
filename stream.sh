@@ -3,7 +3,7 @@ pwd
 cd /usr/src/app
 rm -rf
 gdown $LINK
-mkdir -pv temp && unzip -d ./temp/ -j *.zip
+mkdir -pv temp && unzip -d ./temp/ -j ${FOLDER_NAME}.zip
 rm -rf *.zip
 
 while true; do
