@@ -6,6 +6,8 @@ Have you ever come across a YouTube video that endlessly loops a playlist of mus
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/tonmoyislam12/youtube-live-24)
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/gYdSeB?referralCode=77ZVoR)
+
 # Setup
 
 * Make sure you are allowed to create live streams on YouTube. 
