@@ -11,6 +11,14 @@
     "STREAM_URL": {
       "description": "STREAM URL without leading '/'",
       "required": true
+    },
+    "LINK": {
+      "description": "gdrive link",
+      "required": true
+    },
+    "FOLDER_NAME": {
+      "description": "folder name of the link",
+      "required": true
     }
   },
   "formation": {
